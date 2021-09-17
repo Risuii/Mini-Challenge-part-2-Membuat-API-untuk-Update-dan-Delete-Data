@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Database | All</title>
+    </head>
+    <body>
+        <% article.forEach((i) => { %>
+            <div>
+                <h1>
+                    <%= i.username %>
+                </h1>
+                <p>
+                    <%= i.password %>
+                </p>
+
+                <a href="/database/<%= i.id %>">
+                    Baca lebih lanjut !
+                </a>
+
+                <br>
+
+                <a href="/database/update/<%= i.id %>">
+                    Mau Update Data ? Klik Disini Aja :3
+                </a>
+
+                <br>
+
+                <a href="/database/delete/<%= i.id %>">
+                    Mau Delete Data ? Klik Disini Aja :3
+                </a>
+
+            </div>
+        <%}) %>
+        <br>
+
+        <a href="/database/create">Mau Buat Data Baru ?</a>
+
+        <br>
+
+    </body>
+</html>

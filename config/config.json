@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "babehlo123",
+    "database": "mini_db",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "babehlo123",
+    "database": "mini_db_test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "babehlo123",
+    "database": "mini_db_production",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
